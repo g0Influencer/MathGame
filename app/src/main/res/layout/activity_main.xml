@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="com.example.user.mathgame.MainActivity">
+
+    <LinearLayout
+        android:layout_width="362dp"
+        android:layout_height="543dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.812">
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="161dp"
+            android:paddingBottom="10sp"
+            android:paddingTop="10sp"
+            app:srcCompat="@drawable/math" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:padding="10sp"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="60sp" />
+
+        <EditText
+            android:id="@+id/yourname"
+            android:layout_width="337dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="30sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:background="@drawable/fields"
+            android:ems="10"
+            android:hint="@string/your_name"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="299dp"
+            android:layout_height="85dp"
+            android:background="@drawable/button"
+            android:text="@string/button_name"
+            android:textColor="@color/colorShadow"
+            android:textSize="50sp" />
+
+    </LinearLayout>
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+
+
